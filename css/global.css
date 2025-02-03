@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Cairo';
+    src: url('../fonts/Cairo/Cairo-Black.ttf');
+}
+
+*{
+    font-family: 'Cairo';
+}
+
+body{
+    direction: rtl;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+/* ---------------------الالوان الخاصة بالموقع----------------------*/
+
+:root{
+    --primary_color:#0DB8DE;
+    --primary_hover_color:#0d9bbb;
+    --secondary_color:#27EF9F;
+    --secondary_hover_color:#22c484;
+    --dark-color:#1A2226;
+    --dark-hover-color:#22292c;
+}
+
+/* ------------------------------------------------------------*/
+
+
+
+/* -----------------   تصاميم النصوص -------------------------*/
+
+.text-primary{
+    color: var(--primary_color) !important;
+}
+
+.text-secondary{
+    color: var(--secondary_color) !important;
+}
+
+.text-dark{
+    color: var(--dark-color) !important;
+}
+
+/* ------------------------------------------------------------*/
+
+
+
+/* -----------------  تصاميم الازرار الممتلئة-------------------------*/
+
+.btn-primary{
+    background-color: var(--primary_color);
+    border: solid var(--primary_color) 1px;
+}
+
+.btn-primary:hover{
+    background-color: var(--primary_hover_color);
+    border: solid var(--primary_color) 1px;
+}
+
+.btn-secondary{
+    background-color: var(--secondary_color);
+    border: solid var(--secondary_color) 1px;
+
+}
+
+.btn-secondary:hover{
+    background-color: var(--secondary_hover_color);
+    border: solid var(--secondary_color) 1px;
+
+}
+
+.btn-dark{
+    background-color: var(--dark-color);
+    border: solid var(--dark-color) 1px;
+
+}
+
+.btn-dark:hover{
+    background-color: var(--dark-hover-color);
+    border: solid var(--secondary_color) 1px;
+
+}
+
+/* ------------------------------------------------------------*/
+
+
+/* -----------------  تصاميم الازرار المفرغة-------------------------*/
+
+.btn-outline-primary{
+    border-color: var(--primary_color);
+    color: var(--primary_color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary_color);
+
+}
+
+.btn-outline-secondary{
+    border-color: var(--secondary_color);
+    color: var(--secondary_color);
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--secondary_color);
+    color: black;
+}
+
+.btn-outline-dark{
+    border-color: var(--dark_color);
+    color: var(--dark_color);
+}
+
+.btn-outline-dark:hover {
+    background-color: var(--dark-color);
+}
+
+
+/* ------------------------------------------------------------*/
+
+
+
+/* -----------------  تصاميم لون الخفية -------------------------*/
+
+.bg-primary{
+  background-color: var(--primary_color) !important;  
+}
+
+.bg-secondary{
+    background-color: var(--secondary_color) !important;  
+}
+
+.bg-dark{
+    background-color: var(--dark-color) !important;  
+}
+
+/* ------------------------------------------------------------*/
+
+  

@@ -1,0 +1,46 @@
+
+
+.carousel-item img{
+    height: 100%;
+}
+
+.navbar{
+    position: fixed;
+    z-index: 2;
+    width: 100vw;
+}
+
+.card-cover{
+    background-size: cover;
+}
+
+.footer{
+    background-color: rgb(92, 92, 92);
+    width: 100vw;
+}
+
+
+
+
+
+@media (max-width:768px){
+    .carousel-item{
+        height: 60vh;
+    }
+}
+
+@media (min-width:769px) {
+    .carousel-item{
+        height: 70vh;
+    }
+}
+
+@media (min-width:993px) {
+    .carousel-item{
+        height: 100vh;
+    }
+}
+
+@media (min-width:1201px){
+
+}
